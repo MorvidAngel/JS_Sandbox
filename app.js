@@ -51,4 +51,26 @@ console.timeEnd('This is going to tell me how long hello world took');
 multiple 
 line 
 comments
-*/ 
+*/
+
+// var, let, const
+
+var name = 'John Doe';
+console.log(name);
+name = 'Steve Smith';
+console.log(name);
+
+// inititiolizing a variable
+var greeting;
+console.log(greeting);
+greeting = 'Hello'
+console.log(greeting);
+
+// your variable cant start with numbers. it can consist with letters, numbers, _ , $
+
+// style of wrighting variables with multiple words
+var firstName = 'John'; // this is camel case
+var fisrt_name = 'Sara'; // underscore style
+var FirstName = 'Tom'; //pascal case style
+var firstname = 'Doodle'; // not recomended
+
