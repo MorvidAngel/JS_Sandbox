@@ -165,7 +165,7 @@
 // console.log(val.length);
 // console.log(val.toFixed(2));
 
-// !cowertions
+// !concatenations
 
 // const val1 = String(5);
 // const val2 = 6;
@@ -173,3 +173,94 @@
 
 // console.log(sum);
 // console.log(typeof sum);
+
+// !Numbers & the math object
+// const num1 = 100;
+// const num2 = 50;
+// let val;
+
+// *simple math with number
+// val = num1 + num2;
+// val = num1 - num2;
+// val = num1 * num2;
+// val = num1 / num2;
+// val = num1 % num2;
+
+// *math object
+// val = Math.PI;
+// val = Math.E;
+// val = Math.round(2.4);
+// val = Math.ceil(2.4);
+// val = Math.floor(2.8);
+// val = Math.sqrt(64);
+// val = Math.abs(-3);
+// val = Math.pow(8, 2);
+// val = Math.min(5, 2, 87, 5, 8, 1, 95, -3, 6, 34, 10, 36, 22);
+// val = Math.max(5, 2, 87, 5, 8, 1, 95, -3, 6, 34, 10, 36, 22);
+// val = Math.random();
+// *use this for website
+// val = Math.floor(Math.random() * 100 + 1);
+
+// console.log(val);
+
+// !string methods & concatenation
+const firstName = 'Morvid';
+const lastName = 'Angel';
+const age = '190';
+const str = 'Hello there my name is Morvid';
+const tags = 'web design, web Development, programming, game design';
+let val;
+
+// val = firstName + lastName;
+
+//* concatenation
+// val = firstName + ' ' + lastName;
+
+// *append, replacing and adding
+// val = 'Rick';
+// val += 'Sanchez';
+
+// val = 'Hello, my name is ' + firstName + ' and i am ' + age;
+
+// *escaping from the apostrafy
+// val = 'That\'s awesome, I can\'t wait';
+
+// *checking the lenght
+// val = firstName.length;
+
+// *concat()
+// val = firstName.concat(' ', lastName);
+
+// *change to lower or upper case
+// val = firstName.toUpperCase();
+// val = firstName.toLowerCase();
+
+// *indexOf() finding what number place the letter is on
+// val = firstName.indexOf('i');
+// val = firstName.lastIndexOf('i');
+
+// *charAt()
+// val = firstName.charAt('2');
+// val = firstName[2];
+
+// *get last charecter
+// val = firstName.charAt(firstName.length - 1);
+
+// *substring()
+// val = firstName.substring(0, 4);
+
+// *slice()
+// val = firstName.slice(0, 4);
+// val = firstName.slice(-3);
+
+// *split()
+val = str.split(' ');
+val = tags.split(',');
+
+// *replace()
+val = str.replace('Morvid', 'Rick James bitch!');
+
+// * includes()
+val = str.includes('foo');
+
+console.log(val);
