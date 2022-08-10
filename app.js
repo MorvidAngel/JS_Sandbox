@@ -373,6 +373,47 @@
 // console.log(val);
 
 // !object literals
+// object is like a preofile of a thing
+// const person = {
+//     firstName: 'Rick',
+//     lastName: 'Sanchez',
+//     age: 48,
+//     email: 'wabadubdub@aol.com',
+//     hobbies: ['music', 'sports', 'science'],
+//     address: {
+//         city: 'New York City',
+//         state: 'NY'
+//     },
+//     getBirthYear: function () {
+//         return 2022 - this.age;
+//     }
+// }
+
+// let val;
+// seting up the object
+// val = person;
+// get a spacific value from the object
+// val = person.firstName;
+// val = person['lastName'];
+// val = person.age;
+// val = person.hobbies[2];
+// val = person.address.state;
+// val = person.address['city'];
+// val = person.getBirthYear();
+
+// console.log(val);
+
+// const people = [
+//     { name: 'Chris', age: 26 },
+//     { name: 'Jill', age: 54 },
+//     { name: 'Sam', age: 19 },
+//     { name: 'Tim', age: 55 },
+//     { name: 'Sally', age: 22 },
+// ];
+
+// for (let i = 0; i < people.length; i++) {
+//     console.log(people[i].name);
+// }
 
 // !dates and time
 
