@@ -303,11 +303,11 @@
 
 // !Arrays and Array Methods
 // types of arrays
-const numbers = [39, 10, 4, 66, 420, 28, 123, 344, 6, 20, 80, 306];
-const numbers2 = new Array(32, 53.97, 60, 134, 55, 17,);
-const fruit = ['apple', 'bannana', 'pineapple', 'orange', 'watermelon'];
-const mixed = [22, 'hello', true, undefined, null, { a: 1, b: 1 }, new Date()];
-let val;
+// const numbers = [39, 10, 4, 66, 420, 28, 123, 344, 6, 20, 80, 306];
+// const numbers2 = new Array(32, 53.97, 60, 134, 55, 17,);
+// const fruit = ['apple', 'bannana', 'pineapple', 'orange', 'watermelon'];
+// const mixed = [22, 'hello', true, undefined, null, { a: 1, b: 1 }, new Date()];
+// let val;
 
 // get array lenght
 // val = numbers.length;
@@ -363,14 +363,14 @@ let val;
 // });
 
 // find and index
-function over50(num) {
-    return num > 50;
-}
+// function over50(num) {
+//     return num > 50;
+// }
 
-val = numbers.find(over50);
+// val = numbers.find(over50);
 
-console.log(numbers);
-console.log(val);
+// console.log(numbers);
+// console.log(val);
 
 // !object literals
 
