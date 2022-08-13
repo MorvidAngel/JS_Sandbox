@@ -444,9 +444,136 @@
 // console.log(birthday);
 
 // !if statments and comparison operators
-if (somthing)
+//* syntax
+// if (somthing){
+//     do somthing
+// } else {
+//     do something else
+// }
+
+// const id = 100;
+
+//* equal to
+// if (id == 100) {
+//     console.log('correct');
+// } else {
+//     console.log('incorrect');
+// }
+
+// *not equal to
+// if (id != 101) {
+//     console.log('correct');
+// } else {
+//     console.log('incorrect');
+// }
+
+// *equal to value type (advised to mostly use)
+// if (id === 100) {
+//     console.log('correct');
+// } else {
+//     console.log('incorrect');
+// }
+
+// *equal to value and type (advised to mostly use)
+// if (id !== 100) {
+//     console.log('correct');
+// } else {
+//     console.log('incorrect');
+// }
+
+// *test if undefined
+// if (typeof id !== 'undefined') {
+//     console.log(`The ID is ${id}`);
+// } else {
+//     console.log('no id');
+// }
+
+// *greater or less than
+// if (id <= 100) {
+//     console.log('correct');
+// } else {
+//     console.log('incorrect');
+// }
+
+//* if else
+// const color = 'yellow';
+
+// if (color === 'red') {
+//     console.log('color is red');
+// } else if (color === 'blue') {
+//     console.log('color is blue');
+// } else {
+//     console.log('color is not red or blue');
+// }
+
+// *logical operators
+// const name = 'Steve';
+// const age = 4;
+
+//and = &&
+
+// if (age > 0 && age < 12) {
+//     console.log(`${name} is a child`);
+// } else if (age >= 13 && age <= 19) {
+//     console.log(`${name} is a teenager`);
+// } else {
+//     console.log(`${name} is an adult`);
+// }
+
+// or = ||
+
+// if (age < 16 || age > 65) {
+//     console.log(`${name} can not run in race`);
+// } else {
+//     console.log(`${name} is registered for the race`);
+// }
+
+// *ternary operator (easier way to right an if statement)
+// console.log(id === 100 ? 'correct' : 'incorrect');
 
 // !switches
+
+// const color = 'yellow';
+
+// switch (color) {
+//     case 'red':
+//         console.log('color is red');
+//         break;
+//     case 'blue':
+//         console.log('color is blue');
+//         break;
+//     default:
+//         console.log('color is not red or blue');
+//         break;
+// }
+
+// let day;
+
+// switch (new Date().getDay()) {
+//     case 0:
+//         day = 'sunday';
+//         break;
+//     case 1:
+//         day = 'monday';
+//         break;
+//     case 2:
+//         day = 'teusday';
+//         break;
+//     case 3:
+//         day = 'wednesday';
+//         break;
+//     case 4:
+//         day = 'thursday';
+//         break;
+//     case 5:
+//         day = 'friday';
+//         break;
+//     case 6:
+//         day = 'saturday';
+//         break;
+// }
+
+// console.log(`Today is ${day}`);
 
 // !function declaratioins and expressions
 
