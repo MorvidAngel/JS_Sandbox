@@ -416,34 +416,35 @@
 // }
 
 // !dates and time
-let val;
+// let val;
 
-const today = new Date();
-let birthday = new Date('9-10-1981 11:25:01');
-birthday = new Date('September 10 1981');
-birthday = new Date('9/10/1981');
+// const today = new Date();
+// let birthday = new Date('9-10-1981 11:25:01');
+// birthday = new Date('September 10 1981');
+// birthday = new Date('9/10/1981');
 
-val = today;
-val = today.getMonth();
-val = today.getDate();
-val = today.getDay();
-val = today.getFullYear();
-val = today.getHours();
-val = today.getMinutes();
-val = today.getSeconds();
-val = today.getMilliseconds();
-val = today.getTime();
+// val = today;
+// val = today.getMonth();
+// val = today.getDate();
+// val = today.getDay();
+// val = today.getFullYear();
+// val = today.getHours();
+// val = today.getMinutes();
+// val = today.getSeconds();
+// val = today.getMilliseconds();
+// val = today.getTime();
 
-birthday.setMonth(4);
-birthday.setDate(12);
-birthday.setFullYear(1898);
-birthday.setHours(6);
-birthday.setMinutes(45);
-birthday.setSeconds(30);
+// birthday.setMonth(4);
+// birthday.setDate(12);
+// birthday.setFullYear(1898);
+// birthday.setHours(6);
+// birthday.setMinutes(45);
+// birthday.setSeconds(30);
 
-console.log(birthday);
+// console.log(birthday);
 
 // !if statments and comparison operators
+if (somthing)
 
 // !switches
 
